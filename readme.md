@@ -1,5 +1,11 @@
 ## Curso Git desde CEo
 
+###Zonas de Git
+1. Directorio de trabajo
+2. Area de preparacion
+3. Directorio Git
+
+
 ###Flujo de trabajo basico de Git.
 1. Modificas una serie de archivos en tu directoriode trabajo.
 2. Preparas los archivos, añadiendolos a tu area de preparacion.
