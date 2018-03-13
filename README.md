@@ -1,4 +1,4 @@
-### Curso Git desde CERO
+# Curso Git desde CERO
 
 Sistema de control de versiones para el mantenimiento eficiente y confiable de archivos
 
