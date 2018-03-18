@@ -20,5 +20,4 @@ git config --global user.email "email"
 git config --global core.editor nano
 git config list
 ```
-## Aportes desde otra cuenta
-Este texto fue aportado desde la cuenta de iluisgabriel
+
