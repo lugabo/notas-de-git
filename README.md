@@ -20,5 +20,3 @@ git config --global user.email "email"
 git config --global core.editor nano
 git config list
 ```
-
-Esta linea se agrego desde un equipo windows conectado al repositorio local con Github a traves de HTTPS.
