@@ -20,3 +20,20 @@ git config --global user.email "email"
 git config --global core.editor nano
 git config list
 ```
+
+### Configuracion SSH en windows
+Usando Gitbash seguimos los siguientes pasos:
+
+1. Creamos una carpeta llamada `llaves-ssh` en alguna ubucacion de nuestra eleccion. Se recomienda crearla en el disco local `c` para evitar problemas de rutas.
+
+2. Ejecutamos el comando `ssh-keygen -t rsa -C "mi-correo-ejemplo@ejemplo.com"`
+El correo debe ser el mismo con el que nos registramos en Github para evitar posibles problemas.
+Dejamos el passphrase vacio y damos enter.
+Cuando nos pida la ruta escribimos `/c/Users/Elodia/llaves-ssh/github_rsa`
+
+3. Iniciamos ssh-agent en background ejecutando el comando `eval $(ssh-agent -s)`.
+
+4. Agregamos la llave ssh generada a ssh-agent ejecutando el comando `ssh add /c/Users/Elodia/llaves-ssh/github_rsa`.
+
+5. Desde ahora podemos hacer pull y push sin que Github nos este pidiendo los datos de acceso.
+
