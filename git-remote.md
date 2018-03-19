@@ -2,6 +2,7 @@
 Con este comando vinculamos nuestro repositorio local con GitHub.
 
 ## Pasos para aportar a otro repositorio.
+
 1. Hacer un fork en GitHub.
 2. Clonar el repositorio desde mi cuenta de GitHub.
 3. Crear una rama local.
