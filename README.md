@@ -35,5 +35,10 @@ Cuando nos pida la ruta escribimos `/c/Users/Elodia/llaves-ssh/github_rsa`
 
 4. Agregamos la llave ssh generada a ssh-agent ejecutando el comando `ssh add /c/Users/Elodia/llaves-ssh/github_rsa`.
 
-5. Desde ahora podemos hacer pull y push sin que Github nos este pidiendo los datos de acceso.
+5. Usar el comando `cat /c/Users/Elodia/llaves-ssh/github_rsa.pub`.
+Con este comando vemos todo el contenido del archivo, copiamos todo el texto que nos muestra.
+
+6. Ir a las configuraciones de nuestro Github y agregar una nueva llave SSH con el contenido que hemos copiado de `github_rsa.pub`.
+
+Desde ahora podemos hacer pull y push sin que Github nos este pidiendo los datos de acceso.
 
